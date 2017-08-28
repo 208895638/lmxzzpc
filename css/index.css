@@ -1,0 +1,426 @@
+@charset "UTF-8";
+body {
+  min-width: 1200px;
+  background: #0a0a0a;
+  padding-top: 84px; }
+
+.topBar {
+  width: 1200px;
+  height: 84px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 99;
+  background: url(../images/nav_bg.png) no-repeat center;
+  background-size: cover; }
+  .topBar h2 {
+    width: 234px;
+    height: 158px;
+    position: absolute;
+    left: 29px;
+    top: 9px;
+    z-index: 10; }
+    .topBar h2 img {
+      width: 100%; }
+  .topBar ul {
+    margin-left: 272px; }
+    .topBar ul li a {
+      display: block;
+      width: 161px;
+      padding-top: 22px; }
+      .topBar ul li a .com {
+        width: 100%;
+        text-align: center;
+        font: 17px/31px "微软雅黑";
+        color: #eaeaea; }
+      .topBar ul li a .small {
+        text-align: center;
+        font: 8px/22px "微软雅黑";
+        color: #828282; }
+      .topBar ul li a .on {
+        color: #ffee5c; }
+    .topBar ul li a:hover .com {
+      color: #ffee5c; }
+
+.banner {
+  padding-top: 792px;
+  height: 419px;
+  background: url(../images/index_sec_1.png) no-repeat center;
+  margin: 0 auto;
+  position: relative; }
+  .banner .content {
+    width: 1200px;
+    margin: 0 auto; }
+    .banner .content .ban {
+      width: 497px;
+      padding: 0 55px 66px 55px;
+      position: relative; }
+      .banner .content .ban h3 {
+        font: 18px/68px "微软雅黑";
+        text-align: center;
+        color: #fff;
+        height: 68px;
+        font-weight: 600;
+        margin-bottom: 41px; }
+      .banner .content .ban .swiper-container {
+        width: 100%;
+        height: 233px; }
+        .banner .content .ban .swiper-container .swiper-wrapper {
+          width: 100%;
+          height: 100%; }
+      .banner .content .ban .pagination {
+        position: absolute;
+        width: 496px;
+        height: 29px;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center; }
+        .banner .content .ban .pagination span {
+          width: 29px;
+          height: 29px;
+          background: url(../images/index_page.png) no-repeat center;
+          background-size: cover;
+          margin: 0 27px;
+          display: inline-block;
+          cursor: pointer; }
+        .banner .content .ban .pagination .swiper-active-switch {
+          background: url(../images/index_page_active.png) no-repeat center;
+          background-size: cover; }
+    .banner .content .info {
+      width: 395px;
+      padding: 0 45px 66px 45px;
+      position: relative; }
+      .banner .content .info h3 {
+        font: 18px/68px "微软雅黑";
+        text-align: center;
+        color: #fff;
+        height: 68px;
+        font-weight: 600;
+        margin-bottom: 41px; }
+      .banner .content .info .title {
+        padding-top: 5px;
+        width: 100%;
+        background: #641400; }
+        .banner .content .info .title ul li a {
+          display: block;
+          font: 17px/41px "微软雅黑";
+          color: #fff;
+          padding: 0 14px;
+          border-bottom: 3px solid #641400; }
+        .banner .content .info .title ul li .active {
+          color: #ffee5c;
+          border-bottom: 3px solid #ffee5c; }
+        .banner .content .info .title ul li a:hover {
+          color: #ffee5c;
+          border-bottom: 3px solid #ffee5c; }
+        .banner .content .info .title h4 a {
+          display: block;
+          font: 9px/41px "微软雅黑";
+          padding: 0 20px;
+          color: #fff;
+          font-weight: 600; }
+      .banner .content .info .infos {
+        padding: 10px 17px 14px 23px;
+        background: #d2bda7; }
+        .banner .content .info .infos ul {
+          width: 100%; }
+          .banner .content .info .infos ul li a {
+            display: block; }
+            .banner .content .info .infos ul li a span, .banner .content .info .infos ul li a em {
+              font: 13px/38px "微软雅黑";
+              color: #41322a; }
+            .banner .content .info .infos ul li a span {
+              width: 200px; }
+            .banner .content .info .infos ul li a .infoActive {
+              color: #b02300; }
+          .banner .content .info .infos ul li a:hover span, .banner .content .info .infos ul li a:hover em {
+            color: #b02300; }
+  .banner .download {
+    position: absolute;
+    width: 1200px;
+    right: 0;
+    left: 0;
+    top: 379px;
+    margin: 0 auto; }
+    .banner .download h2 {
+      width: 100%; }
+      .banner .download h2 img {
+        height: 250px;
+        margin: 0 auto; }
+    .banner .download .info {
+      width: 100%;
+      text-align: center; }
+      .banner .download .info ul {
+        margin: 0 auto;
+        padding: 7px 18px;
+        display: inline-block;
+        background: #163f7b; }
+        .banner .download .info ul li a {
+          display: block;
+          width: 89px;
+          margin-right: 15px; }
+          .banner .download .info ul li a img {
+            width: 89px; }
+        .banner .download .info ul li .downloads {
+          width: 128px; }
+          .banner .download .info ul li .downloads img {
+            width: 128px;
+            margin-top: 4px;
+            margin-bottom: 8px; }
+        .banner .download .info ul li .playBtn {
+          margin-right: 0;
+          width: 72px;
+          padding-top: 7px; }
+          .banner .download .info ul li .playBtn img {
+            width: 72px; }
+
+.roles {
+  background: url(../images/part2_bg.png) no-repeat center 38%;
+  height: 828px;
+  position: relative; }
+  .roles .con {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 460px;
+    width: 1200px; }
+    .roles .con .top .introduces {
+      margin-left: 147px; }
+      .roles .con .top .introduces dl dt img {
+        width: 124px; }
+      .roles .con .top .introduces dl dd a {
+        display: block; }
+        .roles .con .top .introduces dl dd a img {
+          margin-top: 14px;
+          height: 34px; }
+    .roles .con .top .rolesCen {
+      position: absolute;
+      left: 385px;
+      top: -14px; }
+      .roles .con .top .rolesCen .role img {
+        width: 463px;
+        height: 432px; }
+      .roles .con .top .rolesCen .pagination {
+        text-align: center;
+        margin-top: -70px; }
+        .roles .con .top .rolesCen .pagination span {
+          width: 13px;
+          height: 13px;
+          display: inline-block;
+          border-radius: 7px;
+          background: #fff;
+          cursor: pointer;
+          margin-right: 10px; }
+        .roles .con .top .rolesCen .pagination .roleActive {
+          background: #ffee5c; }
+    .roles .con .top .skiAndDui .skill {
+      border: 1px solid #ffee5c;
+      width: 278px;
+      height: 167px;
+      padding: 7px 18px;
+      background: url(../images/part1_bg.png) no-repeat center;
+      background-size: cover;
+      position: relative; }
+      .roles .con .top .skiAndDui .skill .tafang .top, .roles .con .top .skiAndDui .skill .duizhan .top {
+        font: 24px/44px "微软雅黑";
+        font-weight: 600;
+        color: #ffffff;
+        width: 242px;
+        border-bottom: 3px solid #fff; }
+      .roles .con .top .skiAndDui .skill .tafang .center, .roles .con .top .skiAndDui .skill .duizhan .center {
+        width: 80px;
+        height: 22px;
+        background: #ffee5c;
+        font: 12px/22px "微软雅黑";
+        color: #000000;
+        text-align: center;
+        margin-top: 44px; }
+      .roles .con .top .skiAndDui .skill .tafang .bottom, .roles .con .top .skiAndDui .skill .duizhan .bottom {
+        font: 11px/17px "微软雅黑";
+        color: #d4d3d6;
+        margin-top: 13px; }
+      .roles .con .top .skiAndDui .skill .page {
+        position: absolute;
+        right: 4px;
+        top: 8px; }
+        .roles .con .top .skiAndDui .skill .page li {
+          font: 13px/22px "微软雅黑";
+          width: 38px;
+          color: #000000;
+          margin-bottom: 4px;
+          background: #fff;
+          cursor: pointer;
+          text-align: center; }
+        .roles .con .top .skiAndDui .skill .page .pageOn {
+          background: #ffee5c; }
+    .roles .con .top .skiAndDui .skills ul li {
+      margin-right: 21px;
+      margin-top: 26px;
+      width: 57px;
+      height: 57px;
+      cursor: pointer;
+      border: 3px solid transparent; }
+      .roles .con .top .skiAndDui .skills ul li img {
+        width: 57px; }
+    .roles .con .top .skiAndDui .skills ul li:last-child {
+      margin-right: 0px; }
+    .roles .con .top .skiAndDui .skills ul li:hover {
+      border: 3px solid #ffee5c;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #ffee5c;
+      -moz-box-shadow: 0px 0px 10px #ffee5c; }
+    .roles .con .top .skiAndDui .skills ul .liOn {
+      border: 3px solid #ffee5c;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #ffee5c;
+      -moz-box-shadow: 0px 0px 10px #ffee5c; }
+    .roles .con .bot {
+      width: 1200px;
+      position: relative;
+      height: 94px;
+      top: 42px;
+      margin: 0 auto;
+      text-align: center; }
+      .roles .con .bot .btn {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: block;
+        margin: auto 0;
+        height: 94px;
+        width: 106px;
+        cursor: pointer;
+        vertical-align: middle; }
+        .roles .con .bot .btn img {
+          height: 52px;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          display: block;
+          margin: auto; }
+      .roles .con .bot .prev {
+        left: 22px; }
+      .roles .con .bot .next {
+        right: 22px; }
+      .roles .con .bot .boxs {
+        width: 922px;
+        height: 94px;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto; }
+        .roles .con .bot .boxs ul {
+          display: inline-block;
+          position: absolute;
+          width: 3688px;
+          height: 94px;
+          left: 0px;
+          top: 6px; }
+          .roles .con .bot .boxs ul .parent {
+            position: relative;
+            overflow-x: hidden;
+            height: 94px; }
+          .roles .con .bot .boxs ul li {
+            width: 76px;
+            height: 76px;
+            margin: 0 16px;
+            position: absolute;
+            cursor: pointer;
+            border: 3px solid transparent; }
+            .roles .con .bot .boxs ul li img {
+              width: 76px;
+              height: 76px; }
+          .roles .con .bot .boxs ul .circleOn {
+            border: 3px solid #ffee5c;
+            border-radius: 38px;
+            box-shadow: 0 0 10px #ffee5c;
+            -moz-box-shadow: 0px 0px 10px #ffee5c; }
+          .roles .con .bot .boxs ul li:hover {
+            border: 3px solid #ffee5c;
+            border-radius: 38px;
+            box-shadow: 0 0 10px #ffee5c;
+            -moz-box-shadow: 0px 0px 10px #ffee5c; }
+        .roles .con .bot .boxs .box {
+          width: 76px;
+          height: 76px;
+          border: 3px solid #ffee5c;
+          border-radius: 38px;
+          box-shadow: 0 0 10px #ffee5c;
+          -moz-box-shadow: 0px 0px 10px #ffee5c;
+          position: absolute;
+          left: 0;
+          top: 6px;
+          margin: 0 16px; }
+
+.part3 {
+  height: 1268px;
+  width: 100%;
+  background: url(../images/part3_bg.png) no-repeat center top;
+  position: relative; }
+  .part3 .info {
+    width: 1200px;
+    height: 595px;
+    position: absolute;
+    top: -44px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: url(../images/part3_info.png) no-repeat center top;
+    background-size: 1200px; }
+    .part3 .info h3 {
+      text-align: center;
+      padding-top: 136px;
+      font: 34px/57px "微软雅黑";
+      font-weight: 600;
+      color: #fff; }
+    .part3 .info ul {
+      width: 1078px;
+      height: 358px;
+      margin: 0 auto;
+      overflow: hidden; }
+      .part3 .info ul li {
+        width: 138px;
+        height: 358px;
+        background-size: 524px;
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        background: #000; }
+        .part3 .info ul li h4 {
+          position: absolute;
+          left: -52px;
+          top: 0;
+          width: 576px;
+          height: 358px;
+          background: #000;
+          z-index: 8; }
+          .part3 .info ul li h4 img {
+            width: 576px;
+            height: 358px; }
+        .part3 .info ul li h5 {
+          width: 576px;
+          height: 358px;
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 10;
+          background: #000000;
+          opacity: 0.5;
+          filter: alpha(opacity=50); }
+      .part3 .info ul .li1 {
+        width: 524px; }
+        .part3 .info ul .li1 h5 {
+          opacity: 0;
+          filter: alpha(opacity=0); }
+
+.indexFooter {
+  background: #050d0a; }

@@ -1,0 +1,144 @@
+body,html{
+    min-width: 1920px;
+    background:  #080922;
+    overflow-x: auto;
+}
+@keyframes test
+{
+    0%{
+        transform: (0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wrap{
+    max-width: 1920px;
+    margin:0 auto;
+    height:1014px;
+    background: #080922 url(../images/active_bg.jpg) no-repeat center top;
+    position: relative;    
+    .logo{
+        position: absolute;
+        left:190px;
+        top:23px;
+        width: 232px;
+        height:160px;
+        img{
+            width: 100%;
+        }
+    }
+    .play{
+        position: absolute;
+        right:347px;
+        top:147px;
+        width:150px ;
+        height:150px;        
+        cursor: pointer;          
+        .pWrap{
+            width: 92px;
+            height: 121px;
+            position: absolute;
+            left: 55px;
+            top: 0px;
+            border-radius: 90px;
+            border: 1px solid #d3ebc2;
+            overflow: hidden;
+            transform: skew(-7deg, -11deg);                
+            h2,h3{
+                width: 100%;
+                height:100%;
+            }
+            h2{
+               background: url(../images/5.png) no-repeat center;
+               background-size:cover;
+               position: absolute;
+               left:-19px;
+               top:0;
+               right: 0;
+               bottom: 0;
+               width: 130%;
+               margin:auto;
+               animation: test 5s linear infinite;
+               img{
+                   position: absolute;
+                   left:0;
+                   top:0;
+                   bottom: 0;
+                   margin:auto;
+                   right: 0;
+                   width: 130px;
+                   height:130px;
+                   
+               }
+            }
+            h3{
+                position: absolute;
+                z-index: 99;
+               background: rgba(0,255,255,0.3);
+               img{
+                   position: absolute;
+                   left:0;
+                   top:0;
+                   right: 0;
+                   bottom: 0;
+                   margin:auto;
+               }
+            }
+        }
+    }
+    .information{
+        width: 1202px;
+        height:500px;
+        padding-top: 72px;
+        margin:0 auto;
+        .title{
+          
+            padding-left: 355px;
+            img{
+                height:302px;
+            }
+        }
+        .info{
+           
+            ul{
+                 width: 387px;
+                height:136px;
+                background: url(../images/active_info_bg.png) no-repeat center;
+                padding-left: 32px;
+                margin-left: 347px;
+               li{
+                    margin-right: 9px;
+                    img{
+                        width: 93px;
+                    }
+                    .icon{
+                        margin-top: 25px;
+                    }
+                    .code{
+                        margin-top: 21px;
+                    }
+                    .xiazai{
+                        padding-top: 15px;
+                        display: block;
+                        
+                    }
+                    .common{
+                        width:129px;
+                    }
+                    .commons{
+                        width:129px;
+                    }
+                } 
+            } 
+            h3{
+                height:116px;
+                margin-top: -10px;
+                margin-left: 2px;
+                img{
+                    height:100%;
+                }
+            }           
+        }
+    }
+}
