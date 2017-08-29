@@ -4,7 +4,7 @@
 			"rolesPic":"images/heilong.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_heilong.png"
 		},
 		{"tafang":[
 			{
@@ -48,7 +48,7 @@
 			"rolesPic":"images/banrenma.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_banrenma.png"
 		},
 		{"tafang":[
 			{
@@ -90,7 +90,7 @@
 			"rolesPic":"images/shizijun.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_shizijun.png"
 		},
 		{"tafang":[
 			{
@@ -135,7 +135,7 @@
 			"rolesPic":"images/bimeng.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_bimeng.png"
 		},
 		{"tafang":[
 			{
@@ -180,7 +180,7 @@
 			"rolesPic":"images/daemo.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_daemo.png"
 		},
 		{"tafang":[
 			{				
@@ -223,7 +223,7 @@
 			"rolesPic":"images/dafashi.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_dafashi.png"
 		},
 		{"tafang":[
 			{
@@ -263,7 +263,7 @@
 			"rolesPic":"images/diyuquan.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_diyuquan.png"
 		},
 		{"tafang":[
 			{
@@ -305,7 +305,7 @@
 			"rolesPic":"images/dulong.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_dulong.png"
 		},
 		{"tafang":[
 			{
@@ -347,7 +347,7 @@
 			"rolesPic":"images/dujiaoshou.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_dujiaoshou.png"
 		},
 		{"tafang":[
 			{
@@ -389,7 +389,7 @@
 			"rolesPic":"images/duyanjuren.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_duyanjuren.png"
 		},
 		{"tafang":[
 			{
@@ -430,7 +430,7 @@
 			"rolesPic":"images/fenghuang.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_fenghuang.png"
 		},
 		{"tafang":[
 			{
@@ -472,7 +472,7 @@
 			"rolesPic":"images/gelu.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_gelu.png"
 		},
 		{"tafang":[
 			{
@@ -513,7 +513,7 @@
 			"rolesPic":"images/huojingling.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_huojingling.png"
 		},
 		{"tafang":[
 			{
@@ -554,7 +554,7 @@
 			"rolesPic":"images/jisi.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_jisi.png"
 		},
 		{"tafang":[
 			{
@@ -596,7 +596,7 @@
 			"rolesPic":"images/jinlong.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_jinlong.png"
 		},
 		{"tafang":[
 			{
@@ -638,7 +638,7 @@
 			"rolesPic":"images/jinglinglieshou.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_jinglingsheshou.png"
 		},
 		{"tafang":[
 			{
@@ -683,7 +683,7 @@
 			"rolesPic":"images/leiliao.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_leiliao.png"
 		},
 		{"tafang":[
 			{
@@ -724,7 +724,7 @@
 			"rolesPic":"images/airen.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_airen.png"
 		},
 		{"tafang":[
 			{
@@ -766,7 +766,7 @@
 			"rolesPic":"images/meidush.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_meidusha.png"
 		},
 		{"tafang":[
 			{
@@ -811,7 +811,7 @@
 			"rolesPic":"images/niutou.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_niutou.png"
 		},
 		{"tafang":[
 			{
@@ -855,7 +855,7 @@
 			"rolesPic":"images/nvshou.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_nvshou.png"
 		},
 		{"tafang":[
 			{
@@ -900,7 +900,7 @@
 			"rolesPic":"images/oke.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_oke.png"
 		},
 		{"tafang":[
 			{
@@ -942,7 +942,7 @@
 			"rolesPic":"images/renleiqishi.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_renleiqishi.png"
 		},
 		{"tafang":[
 			{
@@ -984,7 +984,7 @@
 			"rolesPic":"images/sangdeluo.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_sangdeluo.png"
 		},
 		{"tafang":[
 			{
@@ -1025,7 +1025,7 @@
 			"rolesPic":"images/shenv.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_shenv.png"
 		},
 		{"tafang":[
 			{
@@ -1066,7 +1066,7 @@
 			"rolesPic":"images/shenguai.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_shenguai.png"
 		},
 		{"tafang":[
 			{
@@ -1108,7 +1108,7 @@
 			"rolesPic":"images/shiwu.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_shiwu.png"
 		},
 		{"tafang":[
 			{
@@ -1153,7 +1153,7 @@
 			"rolesPic":"images/shijiu.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_shijiu.png"
 		},
 		{"tafang":[
 			{
@@ -1198,7 +1198,7 @@
 			"rolesPic":"images/shuren.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_shuren.png"
 		},
 		{"tafang":[
 			{
@@ -1242,7 +1242,7 @@
 			"rolesPic":"images/siwangqishi.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_siqi.png"
 		},
 		{"tafang":[
 			{
@@ -1284,7 +1284,7 @@
 			"rolesPic":"images/taitan.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_taitan.png"
 		},
 		{"tafang":[
 			{
@@ -1329,7 +1329,7 @@
 			"rolesPic":"images/tianshi.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_tianshi.png"
 		},
 		{"tafang":[
 			{
@@ -1373,7 +1373,7 @@
 			"rolesPic":"images/xixiegui.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_xixiegui.png"
 		},
 		{"tafang":[
 			{
@@ -1418,7 +1418,7 @@
 			"rolesPic":"images/xiannvlong.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_xiannvlong.png"
 		},
 		{"tafang":[
 			{
@@ -1460,7 +1460,7 @@
 			"rolesPic":"images/xieshen.png"
 		},
 		{
-			"introduce":"images/part1_introduce.png"
+			"introduce":"images/part3_xieshen.png"
 		},
 		{"tafang":[
 			{

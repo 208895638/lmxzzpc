@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body, html {
+  min-width: 1200px; }
+
+.newsR {
+  width: 803px;
+  min-height: 730px;
+  background: #fff; }
+  .newsR h2 {
+    padding: 21px 0;
+    width: 100%;
+    background: #d2bda7; }
+    .newsR h2 img {
+      height: 60px;
+      margin: 0 auto; }
+  .newsR .infoTitle {
+    padding-top: 24px;
+    margin: 0 43px 0 60px; }
+    .newsR .infoTitle h3 {
+      text-align: center;
+      font: 24px/50px "微软雅黑";
+      font-weight: 600; }
+    .newsR .infoTitle h4 {
+      text-align: right;
+      border-bottom: 1px solid #707070; }
+      .newsR .infoTitle h4 span, .newsR .infoTitle h4 em {
+        display: inline-block;
+        font: 10px/33px "微软雅黑";
+        color: #989898;
+        margin-right: 2px; }
+  .newsR .wenzhang {
+    margin: 0 43px 0 60px;
+    padding-top: 26px; }
+    .newsR .wenzhang p {
+      font: 14px/24px "微软雅黑";
+      color: #666666; }
+  .newsR .top {
+    padding: 18px 29px 0 29px;
+    width: 749px; }
+    .newsR .top ul {
+      border-bottom: 1px solid #b5b5b5;
+      padding-left: 54px;
+      width: 695px; }
+      .newsR .top ul li a {
+        display: block;
+        font: 17px/83px "微软雅黑";
+        text-align: center;
+        height: 83px;
+        width: 137px;
+        color: #121212;
+        margin-right: 20px;
+        border-bottom: 4px solid transparent; }
+      .newsR .top ul li .newsTitleOn {
+        border-bottom: 4px solid #bf2a28; }
+      .newsR .top ul li a:hover {
+        border-bottom: 4px solid #bf2a28; }
+  .newsR .bot {
+    padding: 14px 55px 0 55px;
+    width: 693px;
+    position: relative;
+    height: 515px;
+    text-align: center; }
+    .newsR .bot .info {
+      width: 693px; }
+      .newsR .bot .info li a {
+        display: block; }
+        .newsR .bot .info li a span {
+          width: 560px;
+          font: 12px/47px "微软雅黑";
+          color: #424242;
+          text-align: left; }
+        .newsR .bot .info li a em {
+          font: 12px/47px "微软雅黑";
+          color: #7d7d7d; }

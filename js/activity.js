@@ -20,7 +20,8 @@ $(function(){
 				$(".gwActive").removeClass("hide").siblings().addClass("hide");
 			},function(){
 				$(".gwActive").addClass("hide").siblings().removeClass("hide");
-			})
+			});
+			$(".info li").eq(1).css({"transform":"rotate(-3deg)"},{"-ms-transform":"rotate(-3deg)"},{"-moz-transform":"rotate(-3deg)"},{"-webkit-transform":"rotate(-3deg)"},{"-o-transform":"rotate(-3deg)"})
 		},
 		render:function(){
 			var that=this;

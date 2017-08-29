@@ -15,3 +15,198 @@
         text-align: center;
     }
 }
+body{
+    background: #010101;
+}
+.topBar{
+   width: 1200px;
+   height:84px; 
+   margin:0 auto;
+   position: relative;
+   margin:0 auto;
+   z-index: 99;
+   background: url(../images/nav_bg.png) no-repeat center;
+   background-size: cover;
+   h2{
+       width:234px ;
+       height:158px ;
+       position: absolute;
+       left:29px;
+       top:9px;
+       z-index: 10;
+       img{
+           width: 100%;           
+       }
+   }
+   ul{
+       margin-left: 272px;
+       li{
+           a{
+                display: block;
+                width: 161px;
+                padding-top: 22px;
+                .com{
+                    width: 100%;
+                    text-align: center;
+                    font:17px/31px "微软雅黑";
+                    color: #eaeaea;
+                }
+                .small{
+                    text-align: center;
+                    font:8px/22px "微软雅黑";
+                    color: #828282;
+                }
+                
+                .on{
+                    color: #ffee5c;
+                }
+           }
+           a:hover{
+               .com{
+                   color: #ffee5c;
+               }                    
+            }
+       }
+   }
+}
+.newsBan{
+    width: 100%;
+    height:778px;
+    background: url(../images/news_banner.png) no-repeat center top;
+    padding-top: 492px;
+    .newsCon{
+        width: 1200px;
+        margin:0 auto;
+        .newsL{
+            width: 382px;
+            height:524px;
+            background: #d2bda7;
+            dl{
+                width: 100%;
+                dt{
+                    height:64px;
+                    width: 100%;
+                    padding:17px 0;
+                    img{
+                        height:100%;
+                        margin:0 auto;
+                    }
+                }
+                dd{
+                   width: 100%; 
+                   img{
+                       margin:0 auto;
+                   }
+                }
+                .code{
+                    height:208px;
+                    margin-bottom: 28px;                    
+                    img{
+                        height:100%；
+                    }
+                }
+                .ios,.android{
+                    height:75px;
+                    margin-bottom: 14px;
+                    img{
+                        height:100%;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.page{
+    display: inline-block;    
+    margin-top: 80px;
+    border:1px solid #666666;
+    li{        
+        a{
+            display: block;
+            width: 34px;
+            height:34px;
+            border-right: 1px solid #666666;
+            text-align: center;
+            font-size: 10px;
+            color: #424242;
+            line-height: 34px;
+        }
+        .comPageOn{
+            background: #b52c28;
+            color:#fff;
+        }
+        
+    }
+    li:last-child{
+        a{
+            border-right: 0;
+        }       
+    }
+}
+.videoPlay{
+    position: fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    z-index: 100;
+    background: rgba(000,000,000,0.7);
+    .videoPlayCon{
+        width:100%;
+        height:100%;
+        position: relative;
+        
+        video{
+            position: absolute;
+            left:0;
+            right:0;
+            top:0;
+            bottom:0;
+            margin:auto;
+        }
+    }
+}
+.videoPlayNone{
+    display: none;
+}
+#rocket-to-top{
+    background: url("../images/rocket_button_up.png") no-repeat scroll 0 0 transparent;
+    cursor: default;
+    display: block;
+    height: 250px;
+    margin: -125px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 80%;
+    width: 149px;
+    z-index: 11;
+    div{
+        left: 0;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        width: 149px;
+    }
+    .level-2{
+        background: url("../images/rocket_button_up.png") no-repeat scroll -149px 0 transparent;
+        display: none;
+        height: 250px;
+        opacity: 0;
+        z-index: 1;
+    }
+    .level-3{
+        background: none repeat scroll 0 0 transparent;
+        cursor: pointer;
+        display: block;
+        height: 150px;
+        z-index: 2;
+    }
+}

@@ -149,9 +149,26 @@ $(function(){
 			//游戏特色效果
 			$(".part3 .info ul li").hover(function(){
 				$(this).siblings().stop().animate({"width":"138px"});
-				$(this).find("h5").stop().animate({"opacity":"0","filter":"alpha(opacity=0)"}).parent().siblings().find("h5").stop().animate({"opacity":"0.5","filter":"alpha(opacity=500)"});
+				$(this).find("h5").stop().animate({"opacity":"0","filter":"alpha(opacity=0)"}).parent().siblings().find("h5").stop().animate({"opacity":"0.7","filter":"alpha(opacity=700)"});
 				$(this).stop().animate({"width":"524px"});
 			},function(){
+			});
+			//点击播放视频
+			$(".playBtn").on("click",function(){
+				$(".videoPlay").fadeIn();
+				$("#my_video_1")[0].play();
+			})
+			//视频播放点遮罩隐藏
+			$(".videoPlay").click(function (e) {
+			    if (!$(e.target).closest("video").length) {
+					$(".videoPlay").fadeOut();
+					$("#my_video_1")[0].pause();
+			    }
+			});
+			//向上运动
+			$(".info .title li").hover(function(){
+				var index=$(this).index();
+				$(".infos ul").eq(index).show().siblings().hide();
 			})
 		},
 		render:function(){
